@@ -1,3 +1,5 @@
+@import "./../JT&D.css";
+
 .event-register-btn {
     display: block;
     background-color: var(--sc);
