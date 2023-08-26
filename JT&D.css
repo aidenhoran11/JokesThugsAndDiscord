@@ -1,0 +1,12 @@
+:root{
+    --mc:#121212;
+    --sc:#FAF9F6;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    color: var(--sc);
+    background-color: var(--mc);
+}

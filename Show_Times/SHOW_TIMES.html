@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Us</title>
+    <link href="./FOOTER_HEADER.css" rel="stylesheet">
+    <link rel="stylesheet" href="./SHOW_TIMES.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="./JT&D_images\JTD_Logo_transparent.png" alt="Jokes Thugs and Discord Logo" class="header-img">
+            <nav>
+                <a href="./SHOW_TIMES.html" class="nav-link">Show Times </a>
+                <a href="./EXTRA_CONTENT.html" class="nav-link">Extra Content</a>
+                <a href="./MEET_US.html" class="nav-link">Meet Us</a>
+            </nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
+        </div>
+        <div class="fullscreen-menu">
+            <button class="exit-btn" onclick="toggleMenu()">&#10005;</button>
+            <!-- Add your menu items here -->
+            <nav>
+                <a href="./SHOW_TIMES.html" class="nav-link">Show Times </a>
+                <a href="./EXTRA_CONTENT.html" class="nav-link">Extra Content</a>
+                <a href="./MEET_US.html" class="nav-link">Meet Us</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>
+            <!-- clean up code on this title in css doc-->
+            <div id="header-top-text">
+                <img src="./JT&D_images/showtimes_black.png" alt="Meet_Us_top img">
+            </div>
+            <div id="header-bottom-text">
+                <img src="./JT&D_images/showtimes_white.png" alt="Meet_Us_bottom img">
+            </div>
+        </h1>
+        <div class="event-card">
+            <div class="event-section">
+                <img src="./JT&D_images/JTD Poster.png" alt="Jokes Thugs and Discord Logo" class="event-image">
+                <div class="event">
+                    <!-- Event Name -->
+                    <h2 class="event-name">We All Individually Win The Lottery</h2>
+                    <!-- Registration Button -->
+                    <a href="https://www.eventbrite.ca/e/we-all-individually-win-the-lottery-tickets-685880496027" class="event-register-btn">Buy Tickets!</a>
+                    <!-- Event Description -->
+                    <div class="event-description" onclick="extendDesc()">
+                        <p>Like all trilogies, we felt the Joke Thugs & Discord saga deserves a fourth instalment. Don't think about that too hard, just come watch.</p>
+                        <div class="extended-desc">
+                            Oh my god, I'm a little bit flattered you came to check out what else I had to say. Your like
+                            obsessed with me or something. Seriously though, your thinking about this too hard. Just buy the 
+                            tickets. You have something else that day? No you don't. Don't you remember? You booked off
+                            this entire month in anticipation for this show. You're acting crazy. This is why I'm the
+                            only person who loves you. So let me just ask you this. Are you really not going to be there
+                            for us, when we are always there for you?
+                        </div>
+                        <div class="read-more">
+                            Unlock The Secret Description
+                        </div>
+                    </div>
+
+                    <!-- Event Details -->
+                    <div class="event-details">
+                        <div class="event-time">
+                            <strong>Time:</strong> 9:00 PM - 10:00 PM
+                        </div>
+                        <div class="event-location">
+                            <strong>Location:</strong> Social Capital Theater, 154 Danforth Ave 2nd floor, Toronto ON
+                        </div>
+                    </div>
+                    <div class="event-dates">
+                        <strong>Dates:</strong>
+                        <div class="event-date">
+                            August 23, 2023
+                        </div>
+                        <div class="event-date">
+                            August 31, 2023
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Registration Button -->
+            <a href="https://www.eventbrite.ca/e/we-all-individually-win-the-lottery-tickets-685880496027" class="event-register-btn">Buy Tickets!</a>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <p id="footer-title">Contact Us</p>
+            <p>jokesthugs@gmail.com</p>
+            <div class="social-icons">
+                <!-- Add links to your social media profiles -->
+                <a href="https://www.youtube.com/channel/UCa_lLuQv88hrLndszEn-yQA"><img src="./JT&D_images/Images/yt_icon_mono_light.png" alt="Youtube"></a>
+                <a href="https://www.instagram.com/jokes_thugs_and_discord/"><img src="./JT&D_images/Images/Instagram_Glyph_Black.png" alt="Instagram"></a>
+                <!-- ... add more logos as needed -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="./SHOW_TIMES.js"></script>
+    <script src="./FOOTER_HEADER.js"></script>
+</body>
+</html>
